@@ -37,6 +37,11 @@ gem 'dotenv-rails'
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug'
+  gem 'pry-byebug'
+  gem 'pry-rails'
+  gem 'pry'
+  gem 'better_errors'
+  gem 'binding_of_caller'
 end
 
 group :development do
@@ -47,3 +52,5 @@ group :development do
   gem 'spring'
 end
 
+
+gem "psych", "~> 3.1"
